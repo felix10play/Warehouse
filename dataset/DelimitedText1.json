@@ -1,0 +1,28 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "test_blob_stprage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "iebs008_kpis.csv",
+				"container": "datawarehouseiebs"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "FECHA_HORA_MINUTO;DISPOSITIVO;VISITAS;UNIDADES_VENDIDAS;IMPORTE",
+				"type": "String"
+			}
+		]
+	}
+}
