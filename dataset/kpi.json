@@ -13,7 +13,7 @@
 				"fileName": "iebs008_kpis.csv",
 				"container": "datawarehouseiebs"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": ";",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
