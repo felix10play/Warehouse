@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "kpi",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "test_blob_stprage",
